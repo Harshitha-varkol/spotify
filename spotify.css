@@ -1,0 +1,258 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    font-family: SpotifyMixUI,CircularSp,Helvetica,Arial,sans-serif;
+}
+nav{
+    /* border:2px solid; */
+    height:70px;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    color: white;
+}
+nav div{
+    width:30%;
+    display:flex;
+    align-items: center;
+}
+nav svg{
+    height:35px;
+    fill:white;
+}
+nav ol{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    width:100%
+
+}
+nav li:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
+main{
+    border:2px solid;
+    height:500px;
+    background-image: url("./desktop-hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 38%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+main h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+main button{
+    border-radius: 25px;
+    height: 50px;
+    width:150px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+
+
+}    
+#sec1{
+    height:600px;
+}
+
+#sec1 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+#sec1 aside{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+#sec1 div{
+    height:300px;
+    width:300px;
+    text-align: center;
+}
+#sec1 p{
+    line-height: 20px;
+}
+
+
+#sec2 {
+    background-color: #1ed760;
+    height:420px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing:-1.5px ;
+
+}
+#sec2 h1{
+    text-align: center;
+}
+#sec2 img{
+    width: 630px;
+    height: 376px;
+}
+
+
+
+#sec2{
+    border:2px solid;
+    height:500px;
+}
+
+#sec3 h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+#sec3 aside{
+    width: 70%;
+    height: inherit;
+}
+#sec3 article{
+    /* border: 2px solid; */
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec3 summary{
+    list-style: none;
+    height: 70px;
+    padding: 25px;
+    border-bottom: 1px solid lightgray;
+    font-weight: 600;
+    font-size: 18px;
+}
+#sec3 span{
+    float: right;
+    font-size: 30px;
+}
+#sec3 summary:hover{
+    cursor: pointer;
+    background-color: rgba(247, 237, 237, 0.911);
+    text-decoration: underline;
+}
+#sec3 font{
+    color: green;
+    font-weight: 600;
+}
+#sec3 p{
+    padding: 25px;
+}
+#sec4{
+    /* border: 2px solid red; */
+    height:420px;
+    background: url('https://wwwmarketing.scdn.co/static/images/free/desktop-closing.jpeg')  ;
+    background-size: 105% 115%;
+    background-position: center;
+   /* background-size: cover; */
+   /* background-position: 10% 54%; */
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+#sec4 h1{
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: -1.9px;
+}
+
+#sec4 button{
+    border-radius: 25px;
+    height: 50px;
+    width:150px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+footer{
+    border: 2px solid;
+    height: 550px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+}
+footer aside{
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 1100px;
+    /* border-color: white; */
+}
+footer svg{
+    fill: white;
+    /* width: 300px; */
+    height: 35px;
+}
+footer ol{
+    list-style: none;
+    color: white;
+    line-height: 41px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+footer ol>li{
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+}
+footer ol>li+li{
+    color: white;
+    font-weight: normal;
+    font-size: medium;
+}
+
+footer ul{
+    list-style: none;
+    line-height: 25px;
+}
+footer div:last-child{
+    /* border: 2px solid; */
+    color: white;
+    /* width: 200px;
+    height: 50px; */
+    display: flex;
+    gap: 25px;
+}
+footer article{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+  
+    align-content: center;
+    font-size: 25px;
+    background-color: #222326;
+}
+footer svg,article:hover{
+    cursor: pointer;
+}
+footer ol>li+li:hover{
+    color: green;
+    cursor: pointer;
+}
